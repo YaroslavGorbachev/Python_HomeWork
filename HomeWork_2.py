@@ -51,12 +51,16 @@
 # print(result)
 
 # второй пример решения Ошибка никак не смог решить ее
-# f = open('text.txt','w')
-# for i in 1,3,5:
-#     f.write(str(i))
-#     int("10")
-#     10
-#     type(int("10"))
+# from tkinter import N
+
+
+# f = open('text.txt','w'):
+# for index in l:
+#     f.write(index + '\n')
+#     # f.write(str(i))
+#     # int("10")
+#     # 10
+#     # type(int("10"))
 # f.close()
 # with open('text.txt', 'r') as data:
 #     ind = data.read()
