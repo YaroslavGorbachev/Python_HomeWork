@@ -2,7 +2,7 @@
 
 # n = [2, 3, 5, 9, 3]
 # sum = 0
-# for i in range(0,len(n),1):
+# for i in range(1,len(n),2):
 #     if i % 2 == 1:
 #         sum = sum + int(n[i])
 # print(sum)
@@ -47,15 +47,15 @@
 #Задание 5:Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
 
 
-fib1 = fib2 = 1
-n = int(input("Введите число: "))
-# print(fib1, fib2, end=' ')
-def positiv(n):  
-    for i in range(2, n):
-        fib1, fib2 = fib2, fib1 + fib2
-        print(fib2, end=' ')
-def negativ (n):
-    for i in range(2, n):
-        fib1, fib2 = fib2, fib1 - fib2
-        print(fib2, end=' ')
-print (negativ(n) + positiv(n))
+# fib1 = fib2 = 1
+# n = int(input("Введите число: "))
+# # print(fib1, fib2, end=' ')
+# def positiv(n):  
+#     for i in range(2, n):
+#         fib1, fib2 = fib2, fib1 + fib2
+#         print(fib2, end=' ')
+# def negativ (n):
+#     for i in range(2, n):
+#         fib1, fib2 = fib2, fib1 - fib2
+#         print(fib2, end=' ')
+# print (negativ(n) + positiv(n))
